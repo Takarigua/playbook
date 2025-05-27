@@ -7,5 +7,7 @@
 
 - name: Setup lighthouse
   hosts: lighthouse
+  become: yes
   roles:
     - lighthouse-role
+  gather_facts: no
