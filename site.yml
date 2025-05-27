@@ -1,0 +1,11 @@
+- name: Setup vector
+  hosts: vector
+  become: yes
+  roles:
+    - vector-role
+  gather_facts: no
+
+- name: Setup lighthouse
+  hosts: lighthouse
+  roles:
+    - lighthouse-role

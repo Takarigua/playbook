@@ -1,0 +1,9 @@
+- src: git@github.com:Takarigua/vector-role.git
+  scm: git
+  version: v1.0.0
+  name: vector-role
+
+- src: git@github.com:Takarigua/lighthouse-role.git
+  scm: git
+  version: v1.0.0
+  name: lighthouse-role
